@@ -36,7 +36,7 @@ clikit==0.6.2
 cmdstanpy==0.9.5
 colorama==0.4.4
 colorlog==4.8.0
-command-not-found==0.3
+
 commonmark==0.9.1
 configobj==5.0.6
 constantly==15.1.0
