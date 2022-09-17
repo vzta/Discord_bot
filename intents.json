@@ -1,0 +1,39 @@
+{"intents": [
+
+    {"tag": "greetings",
+    "patterns": ["Hello", "hello", "hey", "Hey", "Hi", "hi", "how are you?", "How are you", "Hola", "holis", "Holus ", "holi bb", "bebu", "buenas"],
+    "responses": ["Hello", "Hola!", "What can i do for you?", "whatsup?"]},
+    {
+        "tag":"goodbye",
+        "patterns":["see ya", "see you", "bye", "goodbye", "nos vemos", "adiós"],
+        "responses":["Bye bye my friend", "good Bye sir", "nos vemos papu"]
+    },
+    {
+        "tag": "name",
+        "patterns":["Cómo te llamás?", "what is your name?", "Whats your name" , "who are you?", "quién sos?"],
+        "responses":["My name is JulieBot", "Me llamo JulieBot", "Soy JulieBot", "As you can see My name is JulieBot", "No sabés leer? Me llamo JulieBot"]
+    },
+    {
+        "tag": "Music",
+        "patterns":["Musica", "Qué tenés para escuchar?", "I wanna hear a song", "Quiero escuchar algo", "Quiero escuchar musica", "music", "a song", "Can I request a song?"],
+        "responses":["Yes sir, you can Hear whatever you want. -To listen music you just need to put the command line and the song you want-",
+             "Qué querés escuchar papu?. -Para escuchar música tenés que poner el comando necesario seguido del tema que querés escuchar -- Metele perruki" ]
+    },
+
+    {
+        "tag": "Stock",
+        "patterns":["Can i request stock prices?", "Puedo saber el precio de alguna acción/crypto?"],
+        "responses":["Yes, my friend, you can , you just need to put !st <stock> and you will get the current price ",
+         "si amigo, podés poner el comando !st <stock> y te sale el precio papu" ]
+    }
+    ,
+
+    {
+        "tag": "creator",
+        "patterns":["who created you?", "Quién te creó?", "Who is the programmer behind this?", "Quien te programó?"],
+        "responses":["The programmer behind all this is Tomás Jullier . Contact info: github: \n https://github.com/vzta \n E-mail: \n julliervh@gmail.com" ]
+    }
+
+]
+    
+}
