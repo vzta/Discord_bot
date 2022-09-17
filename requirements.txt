@@ -55,7 +55,7 @@ dill==0.3.1.1
 discord==2.0.0
 discord.py==2.0.1
 distro==1.4.0
-distro-info===0.23ubuntu1
+
 dnspython==2.1.0
 docutils==0.16
 email-validator==1.1.3
