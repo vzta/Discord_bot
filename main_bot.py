@@ -118,7 +118,7 @@ async def restart(ctx):
 
 @client.command(
     name='gon',
-    description='Hisoka orgasm',
+    description='Hisoka',
     pass_context=True,
 )
 async def gon(ctx):
